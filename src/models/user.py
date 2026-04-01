@@ -8,5 +8,8 @@ class User:
         self.name = name
         self.email = email
 
+    def is_valid_email(self):
+        pass
+
     def get_info(self):
         return  f"Пользователь: {self.name}, Email: {self.email}"
